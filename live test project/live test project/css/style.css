@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+.change{
+   color: gray;
+}  
+.main-menu{
+    background-color: rgb(249, 249, 255);
+}
+.level{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.good{
+    border: 5px solid blueviolet;
+    margin: 50px;
+}
+
+              /* Nabvar css start here */  
+.menu-active{
+    color: #8490ff !important;
+}
+.nav-link:hover{
+    color: #8490ff;
+    transition-duration: 1s;
+    background-color: rgba(1, 92, 86, 0.788);
+}
+
+               /* First section css start here */             
+.modify-button{
+    padding: 10px 15px;
+    border: 1px;
+    color: white;
+    background-color: #8490ff;
+    text-decoration: none;  
+}
+
+               /* Third section css start here */ 
+.table{
+    border: 2px solid gray;
+}   
+
+              /* Forth section css start here */
+.single-price{
+    text-align: center;
+    background-color: #f9f9ff;
+    padding: 40px 20px;
+ } 
+.single-price:hover{
+    background-color: rgb(100, 187, 252);
+    color: white;
+}            
+.package-no{
+transition: all 0.3s ease 0s;
+font-weight: 300;
+margin-left: auto;
+margin-right: auto;
+width: 140px;
+height: 140px;
+background-color: rgba(132, 144, 255, 0.1);
+border-radius: 100px;
+align-items: center;
+display: grid;
+border: 30px solid rgba(132, 144, 255, 0.1);
+}
+.package-list ul li{
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+.price-btn{
+    background-color: #8490ff;
+    color: white;
+    padding: 8px 50px;
+    border: 1px;
+    font-weight: 600;
+    text-decoration: none;   
+}
+.price-btn:hover{
+    background-color: white;
+    color: black;
+    padding: 8px 50px;
+    border: 1px;  
+}
+
+        /* Fifth section css start here */
+
+.recent-blog-area {
+    background: #f9f9ff;
+}        
+.thumb {
+    overflow: hidden;
+}
+.bottom {
+    margin-right: 60px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.single-recent-blog a {
+    color: #222;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+            /* Footer css start here */  
+.footer-area {
+    background-color: #04091e;
+    color: white;
+}
+@media (max-width: 991.98px) {
+    .single-footer-widget {
+        margin-bottom: 30px;
+    }
+}
+.btn{
+    font-size: 1.2rem;
+    border-radius: 0;
+    background: #8490ff;
+    color: #fff;
+}
